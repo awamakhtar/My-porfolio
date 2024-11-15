@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Navbar from "../component/Navbar"
 import Header from "../component/Header"
 import Competence from "../component/Competence"
-import Projet  from "../component/Projet"
+// import Projet  from "../component/Projet"
 // import Service  from "../component/Service"
 import About  from "../component/About"
 import Contact  from "../component/Contact"
@@ -46,7 +46,7 @@ export default function Accueil() {
                 <Navbar  darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
                 <Header />
                 <Competence />
-                <Projet />
+                {/* <Projet /> */}
                 {/* <Service /> */}
                 <About />
                 <Contact />
