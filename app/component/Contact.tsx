@@ -18,12 +18,12 @@ const Contact =()=>{
                 <input type="email" placeholder="Votre email" className="w-full p-4 text-white bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg"/>
                 <textarea placeholder="Votre message" className="w-full p-4 h-32 text-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg"></textarea>
                 
-                <button className="flex items-center bg-[#A99886] text-white px-6 py-3 rounded-lg hover:bg-[#8a7864]">
+                
+            </div>
+            {/* <button className="flex items-center bg-[#A99886] text-white px-6 py-3 rounded-lg hover:bg-[#8a7864]">
                     Envoyer
                     <FiSend className="mx-3"/>
-                </button>
-            </div>
-
+            </button> */}
         
           <div className="w-full md:w-1/2 flex flex-col items-center md:items-end mt-8 md:mt-0">
               <Image src="/assets/contact.png" width={400} height={300} alt="Illustration Contact"/>
@@ -42,6 +42,12 @@ const Contact =()=>{
                   </a>
               </div>
           </div>
+        </div>
+        <div className="flex items-center justify-center mt-8">
+            <button className="flex items-center space-x-2 bg-[#A99886] hover:bg-[#A99886] dark:bg-[#A99886] dark:hover:bg-[#A99886]  text-white px-6 py-3 rounded-lg hover:animate-bounce">
+            Envoyer
+            <FiSend className="mx-3"/>
+            </button>
         </div>
   </div>
     )
