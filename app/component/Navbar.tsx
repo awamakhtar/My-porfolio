@@ -26,9 +26,9 @@ const Navbar = ({ darkMode, toggleDarkMode}: NavbarProps) => {
 	
 	 
     {/* Icône de menu burger à gauche */}
-    <button onClick={handleMenuToggle} className="focus:outline-none md:hidden">
+    <button onClick={handleMenuToggle} className="focus:outline-none md:hidden ">
         {isMenuOpen ? (
-          <IoCloseSharp className="w-6 h-6 text-black dark:text-white" />
+          <IoCloseSharp className="w-6 h-6 text-black dark:text-white " />
         ) : (
           <MdMenu className="w-6 h-6 text-black dark:text-white" />
         )}
