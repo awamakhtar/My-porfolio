@@ -7,6 +7,7 @@ import Competence from "../component/Competence"
 // import Service  from "../component/Service"
 import About  from "../component/About"
 import Contact  from "../component/Contact"
+import Footer  from "../component/Footer"
 
 
 export default function Accueil() {
@@ -50,6 +51,7 @@ export default function Accueil() {
                 {/* <Service /> */}
                 <About />
                 <Contact />
+                <Footer/>
 
 
             </main>
