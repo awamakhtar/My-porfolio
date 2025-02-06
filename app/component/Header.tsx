@@ -28,7 +28,7 @@ const Header =()=> {
             </div>
 
             <div className="px-24">
-                <Image  src="/assets/profile-pic.png" alt="" width={350} height={250}  className='w-full h-auto'/>
+                <Image  src="/assets/profile-pic.png" alt="" width={300} height={250}  className='w-full h-auto'/>
             </div>
         </div>
     );
