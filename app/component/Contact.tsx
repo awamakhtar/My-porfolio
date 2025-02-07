@@ -14,9 +14,9 @@ const Contact =()=>{
         <div className="flex flex-col md:flex-row justify-between w-full">
             
             <div className="w-full md:w-1/2 space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
-                <input type="text" placeholder="Votre Nom" className="w-full p-4 text-white bg-white  dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg"/>
-                <input type="email" placeholder="Votre email" className="w-full p-4 text-white bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg"/>
-                <textarea placeholder="Votre message" className="w-full p-4 h-32 text-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg"></textarea>
+                <input type="text" placeholder=" Nom" className="w-full p-4 text-white bg-white  dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg"/>
+                <input type="email" placeholder=" email" className="w-full p-4 text-white bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg"/>
+                <textarea placeholder=" message" className="w-full p-4 h-32 text-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg"></textarea>
                 
                 <button className="flex items-center bg-[#A99886] text-white px-6 py-3 rounded-lg hover:bg-[#8a7864] hover:animate-bounce">
                     Envoyer
