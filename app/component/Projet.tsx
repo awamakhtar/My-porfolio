@@ -1,116 +1,102 @@
 
-// import Image from 'next/image';
-import { useState } from 'react';
-import { GrLinkPrevious,  GrLinkNext } from "react-icons/gr";
-import { FaRegPlayCircle } from "react-icons/fa";
+import Image from 'next/image';
+import { Sparkles } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
+import { IoMdArrowDroprightCircle } from "react-icons/io";
 
-const Projet = ()=>{
-    const projects =[
-        {
-            title: "Maraxib Store",
-            description: "Un site en ligne de vente de vêtements musulmans",
-            imageUrl: "/assets/maraxibe.jpg",
-            link: "https://maraxib-alkaly02s-projects.vercel.app",
-            
-        },
-        {
-            title: "Affiche de vente de vêtement",
-            description: "Projet Design",
-            imageUrl: "/assets/design.jpg",
-            link: "https://maraxib-alkaly02s-projects.vercel.app",
-          },
-          {
-            title: "Al-Muntakha-Vision",
-            description: "Un site en ligne de vente de lunettes de tout genre",
-            imageUrl: "/assets/al-mountakha.jpg",
-            link: "https://maraxib-alkaly02s-projects.vercel.app",
-          },
-          {
-            title: "Affiche de badge",
-            description: "Projet Design",
-            imageUrl: "/assets/Gamou.png",
-            link: "https://maraxib-alkaly02s-projects.vercel.app",
-          },
-    ];
-
-    const [currentIndex, setCurrentProject] = useState(0);
-    const projectsPerPage = 2;
-  // Fonction pour défiler à gauche
-  const goToPrevious = () => {
-    setCurrentProject((prev) => (prev === 0 ? projects.length - projectsPerPage : prev - projectsPerPage));
-  };
-
-  // Fonction pour défiler à droite
-  const goToNext = () => {
-    setCurrentProject((prev) => (prev + projectsPerPage >= projects.length ? 0 : prev + projectsPerPage));
-  };
 
 
 
+const Projet = ()=>{
     return(
-        <div className="flex flex-col text-center justify-center dark:text-white text-black" id="projets">
-
-            <h1 className="font-playfair text-4xl font-bold text-[#A99886] my-8 ">Projet</h1>
-
-            <div className="relative flex items-center justify-center space-x-4 my-8 mx-20 ">
-
-                <button onClick={goToPrevious} className="relative left-0 top-1/2 transform -translate-y-1/2  p-2 rounded-full shadow-md bg-white border border-black text-black dark-bg-black dark-border-white dark-text-white ">
-                    <GrLinkPrevious className="" />
-                </button>
-
-            
-        <div className="flex space-x-2">
-          {projects.slice(currentIndex, currentIndex + projectsPerPage).map((project, index) => (
-            <div key={index} className="relative w-80 h-48 sm:w-96 sm:h-64 bg-cover bg-center rounded-lg shadow-lg hover:scale-110 transition-transform duration-300" 
-              style={{ backgroundImage: `url(${project.imageUrl})` }}>
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
-                <h3 className="text-white text-sm sm:text-2xl font-bold">{project.title}</h3>
-                <p className="text-gray-300 mt-2 text-sm sm:text-base">{project.description}</p>
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <button className="mt-4 p-2 rounded-full shadow-md border border-white text-white dark:bg-black dark:border-white dark:text-white">
-                    <FaRegPlayCircle />
-                  </button>
-                </a>
-              </div>
+        <div className="flex flex-col text-center justify-center dark:text-white text-black " id="projets">
+            {/* <h1 className="font-playfair text-4xl font-bold text-[#A99886] my-8 flex-col md:flex-row">Mes Réalisations</h1> */}
+            <div className="relative  h-44  flex items-center justify-center">
+                <h1 className="absolute bottom-3 bg-[#A99886] text-white font-semibold py-2 px-3 m-4 rounded-full flex items-center  shadow-lg hover:bg-[#A99886]-600 text-xl">
+                <Sparkles className="text-white w-4 h-4"/>Réalisations</h1>
             </div>
-          ))}
+            <div className="grid  mx-6  p-4 grid-cols-3">
+
+                <div className="rounded-lg bg-[#A99886] w-[300px] h-[450px] mx-16 shadow-lg border border-[#A99886]  dark:hover:bg-gray-500/30 p-2 ">
+                    <div className="mb-6">
+                        <Image src="/assets/maraxibe.jpg" alt="maraxib" className="card-img-top object-cover rounded-lg" width={350} height={400}/>
+                    </div>
+                    <h2 className="uppercase text-start text-white font-bold">Maraxib Store</h2>
+                    <p className="text-start text-white text-sm mt-4">Commandez tout ce dont vous avez besoin dans votre boutique islamique en ligne que ce soit
+                    Bayelahat, Laxasay, Coran, Xassida, Tapis de priere, chapelets, etc</p>
+
+                    <div className="flex space-x-4 mt-4 text-sm">
+                        <div className="text-white bg-black p-1 rounded-sm text-sm">NextJS</div>
+                        <div className="text-white bg-black p-1 rounded-sm text-sm">Tailwind</div>
+                        <div className="text-white bg-black p-1 rounded-sm text-sm">Laravel</div>
+                    </div>
+
+                    <div className="flex  space-x-6  mt-6  ">   
+                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                            <FaGithub className="text-2xl border-2 border-black rounded-full" />
+                        </a>
+                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                        <IoMdArrowDroprightCircle  className="text-2xl border-2 border-black rounded-full"/>
+
+                        </a>
+                    </div>
+                </div>
+
+                <div className="rounded-lg bg-[#A99886] w-[300px] h-[450px] mx-16 shadow-lg border border-[#A99886]  dark:hover:bg-gray-500/30 p-2">
+                    <div className="mb-6">
+                        <Image src="/assets/maraxibe.jpg" alt="maraxib" className="card-img-top object-cover rounded-lg" width={350} height={400}/>
+                    </div>
+                    <h2 className="uppercase text-start text-white font-bold">Maraxib Store</h2>
+                    <p className="text-start text-white text-sm mt-4">Commandez tout ce dont vous avez besoin dans votre boutique islamique en ligne que ce soit
+                    Bayelahat, Laxasay, Coran, Xassida, Tapis de priere, chapelets, etc</p>
+
+                    <div className="flex space-x-4 mt-4 text-sm">
+                        <div className="text-white bg-black p-1 rounded-sm text-sm">NextJS</div>
+                        <div className="text-white bg-black p-1 rounded-sm text-sm">Tailwind</div>
+                        <div className="text-white bg-black p-1 rounded-sm text-sm">Laravel</div>
+                    </div>
+
+                    <div className="flex  space-x-6  mt-6  ">   
+                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                            <FaGithub className="text-2xl border-2 border-black rounded-full" />
+                        </a>
+                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                        <IoMdArrowDroprightCircle  className="text-2xl border-2 border-black rounded-full"/>
+
+                        </a>
+                    </div>
+                </div>
+
+                <div className="rounded-lg bg-[#A99886] w-[300px] h-[450px] mx-16 shadow-lg border border-[#A99886]  dark:hover:bg-gray-500/30 p-2">
+                    <div className="mb-6">
+                        <Image src="/assets/maraxibe.jpg" alt="maraxib" className="card-img-top object-cover rounded-lg" width={350} height={400}/>
+                    </div>
+                    <h2 className="uppercase text-start text-white font-bold">Maraxib Store</h2>
+                    <p className="text-start text-white text-sm mt-4">Commandez tout ce dont vous avez besoin dans votre boutique islamique en ligne que ce soit
+                    Bayelahat, Laxasay, Coran, Xassida, Tapis de priere, chapelets, etc</p>
+
+                    <div className="flex space-x-4 mt-4 text-sm">
+                        <div className="text-white bg-black p-1 rounded-sm text-sm">NextJS</div>
+                        <div className="text-white bg-black p-1 rounded-sm text-sm">Tailwind</div>
+                        <div className="text-white bg-black p-1 rounded-sm text-sm">Laravel</div>
+                    </div>
+
+                    <div className="flex  space-x-6  mt-6  ">   
+                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                            <FaGithub className="text-2xl border-2 border-black rounded-full" />
+                        </a>
+                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                        <IoMdArrowDroprightCircle  className="text-2xl border-2 border-black rounded-full"/>
+
+                        </a>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-            {/* <div className="relative w-96 h-64 bg-cover bg-center rounded-lg shadow-lg hover:scale-110 transform transition-transform duration-300" 
-                style={{ backgroundImage: `url(${projects[currentProject].imageUrl})`}}>
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
-                    <h3 className="text-white text-2xl font-bold">{projects[currentProject].title}</h3>
-                    <p className="text-gray-300 mt-2">{projects[currentProject].description}</p>
-                    <a href={projects[currentProject].link} target="_blank" rel="noopener noreferrer">
-                    <button  className="mt-4 p-2 rounded-full shadow-md border border-white text-white dark-bg-black dark-border-white dark-text-white ">
-                        <FaRegPlayCircle className="" />
-                    </button>
-                    </a>
-                </div>
-            </div> */}
-
-            {/* <div className="relative w-96 h-64 bg-cover bg-center rounded-lg shadow-lg hover:scale-110 transform transition-transform duration-300" 
-                style={{ backgroundImage: `url(${projects[currentProject].imageUrl})` }}>
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
-                    <h3 className="text-white text-2xl font-bold">{projects[currentProject].title}</h3>
-                    <p className="text-gray-300 mt-2">{projects[currentProject].description}</p>
-                    <a href={projects[currentProject].link} target="_blank" rel="noopener noreferrer" >
-                    <button  className="mt-4 p-2 rounded-full shadow-md border border-white text-white dark-bg-black dark-border-white dark-text-white ">
-                        <FaRegPlayCircle className="" />
-                    </button>
-                    </a>
-                </div>
-            </div> */}
 
 
-            <button onClick={goToNext} className="relative right-0 top-1/2 transform -translate-y-1/2  p-2 rounded-full shadow-md bg-white border border-black text-black dark-bg-black dark-border-white dark-text-white ">
-                    <GrLinkNext  className=" "/>
-                    
-                </button>
-                
-            </div>
-        </div>
-    )
-};
-
-export default Projet;
+          )
+        };
+export default Projet;          

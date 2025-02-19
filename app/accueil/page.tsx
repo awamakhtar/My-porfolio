@@ -1,9 +1,9 @@
 "use client"
-// import { useState, useEffect } from 'react';
-// import Navbar from "../component/Navbar"
+import { useState, useEffect } from 'react';
+import Navbar from "../component/Navbar"
 import Header from "../component/Header"
 import Competence from "../component/Competence"
-// import Projet  from "../component/Projet"
+import Projet  from "../component/Projet"
 // import Service  from "../component/Service"
 import About  from "../component/About"
 import Contact  from "../component/Contact"
@@ -11,25 +11,25 @@ import Footer  from "../component/Footer"
 
 
 export default function Accueil() {
-  //   const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(false);
 
-  // useEffect(() => {
+  useEffect(() => {
     
-  //   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  //     setDarkMode(true);
-  //     document.documentElement.classList.add('dark'); // Applique la classe "dark" à l'élément HTML
-  //   }
-  // }, []);
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setDarkMode(true);
+      document.documentElement.classList.add('dark'); // Applique la classe "dark" à l'élément HTML
+    }
+  }, []);
 
 
-  // const toggleDarkMode = () => {
-  //   setDarkMode(!darkMode);
-  //   if (darkMode) {
-  //     document.documentElement.classList.remove('dark');
-  //   } else {
-  //     document.documentElement.classList.add('dark');
-  //   }
-  // };
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+    if (darkMode) {
+      document.documentElement.classList.remove('dark');
+    } else {
+      document.documentElement.classList.add('dark');
+    }
+  };
     
     return(
         <div className="min-h-screen">
@@ -44,10 +44,10 @@ export default function Accueil() {
                     )}
             </button> */}
             <main className="bg-white dark:bg-black text-black dark:text-white p-8">
-                {/* <Navbar  darkMode={darkMode} toggleDarkMode={toggleDarkMode}/> */}
+                <Navbar  darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
                 <Header />
                 <Competence />
-                {/* <Projet /> */}
+                <Projet />
                 {/* <Service /> */}
                 <About />
                 <Contact />

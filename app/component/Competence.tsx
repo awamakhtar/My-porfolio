@@ -2,21 +2,25 @@
 
 import { FaBootstrap, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaGithub, FaLaravel, FaWordpress } from 'react-icons/fa';
 import { SiNextdotjs, SiMysql, SiMongodb, SiTailwindcss, SiFigma, SiVercel, SiCanva, SiAdobephotoshop } from 'react-icons/si';
+import { Sparkles } from "lucide-react";
 
 
 const Competence = () => {
     return (
         <div className="flex flex-col text-center justify-center dark:text-white text-black " id="competences">
-            <h1 className="font-playfair text-4xl font-bold text-[#A99886] my-8 flex-col md:flex-row">Compétences</h1>
-
+            {/* <h1 className="font-playfair text-4xl font-bold text-[#A99886] my-8 flex-col md:flex-row">Compétences</h1> */}
+            <div className="relative  h-44  flex items-center justify-center">
+                <h1 className="absolute bottom-4 bg-[#A99886] text-white font-semibold py-2 px-3 m-4 rounded-full flex items-center  shadow-lg hover:bg-[#A99886]-600 text-xl">
+                <Sparkles className="text-white w-4 h-4"/> Compétences </h1>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl p-4 mx-16 ">
 
-                <div className="p-6 bg-white dark:bg-black  dark:border-[#A99886] border-[#A99886] border-2 rounded-lg   dark:hover:bg-[#A99886] animate-slideUp delay-100 hover:animate-jump-in">
+                <div className="p-6 bg-white dark:bg-black  dark:border-[#A99886] border-[#A99886] border-2 rounded-lg    animate-slideUp delay-100 hover:animate-jump-in">
                     <h2 className="font-playfair font-bold text-xl dark:text-white text-black">Front-End</h2>
                     <ul className="space-y-5">
                         <li className="flex items-center space-x-2 ">
                             <FaBootstrap className="w-6 h-6  rounded-full  dark:text-black dark:bg-white" />
-                            <span className="font-playfair">Bootstrap</span>
+                            <span className="font-playfair">Bootstrap</span> 
                         </li>
                         <li className="flex items-center space-x-2">
                             <FaHtml5 className="w-6 h-6  rounded-full  dark:text-black dark:bg-white" />
@@ -33,7 +37,7 @@ const Competence = () => {
                     </ul>
                 </div>
 
-                <div className="p-6 bg-white dark:bg-black  dark:border-[#A99886] border-[#A99886] border-2  rounded-lg  dark:hover:bg-[#A99886] animate-slideUp delay-100">
+                <div className="p-6 bg-white dark:bg-black  dark:border-[#A99886] border-[#A99886] border-2  rounded-lg   animate-slideUp delay-100">
                     <h2 className="font-playfair font-bold text-xl dark:text-white text-black">Back-End</h2>
                     <ul className="space-y-5">
                         <li className="flex items-center space-x-2">
@@ -55,7 +59,7 @@ const Competence = () => {
                     </ul>
                 </div>
 
-                <div className="p-6 bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg  dark:hover:bg-[#A99886] animate-slideUp delay-100">
+                <div className="p-6 bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg   animate-slideUp delay-100">
                     <h2 className="font-playfair font-bold text-xl dark:text-white text-black">CSS & UI</h2>
                     <ul className="space-y-5">
                         <li className="flex items-center space-x-2">
@@ -77,7 +81,7 @@ const Competence = () => {
                     </ul>
                 </div>
 
-                <div className="p-6 bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg  dark:hover:bg-[#A99886] animate-slideUp delay-100">
+                <div className="p-6 bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg   animate-slideUp delay-100">
                     <h2 className="font-playfair font-bold text-xl dark:text-white text-black">Outils & Plateformes</h2>
                     <ul className="space-y-5">
                         <li className="flex items-center space-x-2">

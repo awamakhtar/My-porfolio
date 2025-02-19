@@ -1,12 +1,17 @@
 import Image from 'next/image';
+import { Sparkles } from "lucide-react";
 
 
 const About =()=>{
 
     return(
-        <section className="flex flex-col items-center justify-center dark:text-white text-black py-16 px-6" id="about">
+        <section className="flex flex-col items-center justify-center dark:text-white text-black  px-6" id="about">
        
-        <h1 className="text-4xl font-bold text-[#A99886] mb-6 text-center font-playfair">A Propos</h1>
+        {/* <h1 className="text-4xl font-bold text-[#A99886] mb-6 text-center font-playfair">A Propos</h1> */}
+        <div className="relative  h-44  flex items-center justify-center">
+                <h1 className="absolute bottom-4 bg-[#A99886] text-white font-semibold text-xl py-2 px-3 rounded-full flex items-center  shadow-lg hover:bg-[#A99886]-600">
+                <Sparkles className="text-white w-4 h-4" /> Apropos</h1>
+            </div>
         <div className="flex flex-col md:flex-row items-center justify-between w-full">
           <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mb-5 md:mb-0">
             <p className="text-lg leading-8 font-playfair mx-10">

@@ -1,5 +1,6 @@
 
 import Image from 'next/image';
+
 // import SplitText from "./SplitText";
 
 
@@ -20,9 +21,8 @@ const Header =()=> {
                 <h3 className="font-allura text-[#A99886] text-9xl  "> Awa Sylla</h3>
                 <p className="font-playfair ">Je suis développeuse web,  j&apos;ai également des notions en design</p>
                 <a href="/assets/CV.pdf" download>
-                    <button  className="font-playfair bg-[#A99886] rounded-[10px]
-                     text-white px-5 py-1 outline mt-5  animate-bounce" >             
-                    Télécharger CV
+                    <button  className="font-playfair bg-[#A99886] rounded-full py-2 text-white px-5 mt-5 animate-bounce" >Télécharger CV 
+   
                     </button>
                 </a>
             </div>
