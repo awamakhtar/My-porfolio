@@ -10,12 +10,12 @@ const Competence = () => {
         <div className="flex flex-col text-center justify-center dark:text-white text-black " id="competences">
             {/* <h1 className="font-playfair text-4xl font-bold text-[#A99886] my-8 flex-col md:flex-row">Compétences</h1> */}
             <div className="relative  h-44  flex items-center justify-center">
-                <h1 className="absolute bottom-4 bg-[#A99886] text-white font-semibold py-2 px-3 m-4 rounded-full flex items-center  shadow-lg hover:bg-[#A99886]-600 text-xl">
+                <h1 className="absolute  font-playfair bottom-4 bg-[#A99886] text-white font-semibold py-2 px-3 m-4 rounded-full flex items-center  shadow-lg hover:bg-[#A99886]-600 text-xl">
                 <Sparkles className="text-white w-4 h-4"/> Compétences </h1>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl p-4 mx-16 ">
+            <div className="grid grid-cols-1 md:grid-cols-2  gap-8 w-full max-w-5xl p-4 mx-16  ">
 
-                <div className="p-6 bg-white dark:bg-black  dark:border-[#A99886] border-[#A99886] border-2 rounded-lg    animate-slideUp delay-100 hover:animate-jump-in">
+                <div className="p-6 bg-white dark:bg-black  dark:border-[#A99886] border-[#A99886] border-2 rounded-lg    animate-slideUp delay-100 hover:animate-jump-in cursor-pointer hover:scale-[99%] transition-all duration-700 hover:shadow-bs">
                     <h2 className="font-playfair font-bold text-xl dark:text-white text-black">Front-End</h2>
                     <ul className="space-y-5">
                         <li className="flex items-center space-x-2 ">
@@ -37,7 +37,7 @@ const Competence = () => {
                     </ul>
                 </div>
 
-                <div className="p-6 bg-white dark:bg-black  dark:border-[#A99886] border-[#A99886] border-2  rounded-lg   animate-slideUp delay-100">
+                <div className="p-6 bg-white dark:bg-black  dark:border-[#A99886] border-[#A99886] border-2  rounded-lg   animate-slideUp delay-100 cursor-pointer hover:scale-[99%] transition-all duration-700 hover:shadow-bs ">
                     <h2 className="font-playfair font-bold text-xl dark:text-white text-black">Back-End</h2>
                     <ul className="space-y-5">
                         <li className="flex items-center space-x-2">
@@ -59,7 +59,7 @@ const Competence = () => {
                     </ul>
                 </div>
 
-                <div className="p-6 bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg   animate-slideUp delay-100">
+                <div className="p-6 bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg   animate-slideUp delay-100 cursor-pointer hover:scale-[99%] transition-all duration-700 hover:shadow-bs">
                     <h2 className="font-playfair font-bold text-xl dark:text-white text-black">CSS & UI</h2>
                     <ul className="space-y-5">
                         <li className="flex items-center space-x-2">
@@ -81,7 +81,7 @@ const Competence = () => {
                     </ul>
                 </div>
 
-                <div className="p-6 bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg   animate-slideUp delay-100">
+                <div className="p-6 bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg   animate-slideUp delay-100 cursor-pointer hover:scale-[99%] transition-all duration-700 hover:shadow-bs">
                     <h2 className="font-playfair font-bold text-xl dark:text-white text-black">Outils & Plateformes</h2>
                     <ul className="space-y-5">
                         <li className="flex items-center space-x-2">

@@ -6,7 +6,7 @@
 }
 
 .font-allura {
-  font-family: 'Allura', cursive; /* ou 'serif', selon votre préférence */
+  font-family: 'Allura', cursive; 
 }
 body {
   @apply bg-white text-black dark:bg-black dark:text-white;
@@ -15,8 +15,8 @@ html {
   scroll-behavior: smooth;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 

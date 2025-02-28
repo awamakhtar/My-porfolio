@@ -8,9 +8,10 @@ import Projet  from "../component/Projet"
 import About  from "../component/About"
 import Contact  from "../component/Contact"
 import Footer  from "../component/Footer"
+import DockMenu from "../component/DockMenu";
 
 
-export default function Accueil() {
+export default function Accueil({ children }: { children: React.ReactNode }) {
     const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
@@ -52,7 +53,10 @@ export default function Accueil() {
                 <About />
                 <Contact />
                 <Footer/>
-
+                <div className="relative">
+                  {children}
+                  <DockMenu />
+                </div>
 
             </main>
             
