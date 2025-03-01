@@ -11,7 +11,8 @@ import Footer  from "../component/Footer"
 import DockMenu from "../component/DockMenu";
 
 
-export default function Accueil({ children }: { children: React.ReactNode }) {
+
+export default function Accueil() {
     const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
@@ -54,7 +55,7 @@ export default function Accueil({ children }: { children: React.ReactNode }) {
                 <Contact />
                 <Footer/>
                 <div className="relative">
-                  {children}
+                 
                   <DockMenu />
                 </div>
 
