@@ -19,7 +19,7 @@ const Contact =()=>{
         <div className="flex flex-col md:flex-row justify-between w-full">
             
             <div className="w-full md:w-1/2 space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
-                <input type="text" name="name" id="nom" placeholder=" Nom" className="w-full p-4 text-white bg-white  dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg outline-none"/>
+                <input type="text" name="name" id="nom" placeholder=" Nom" className="w-full p-4 text-black dark:text-white bg-white  dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg outline-none"/>
                 <input type="email" name="email" id="email" placeholder=" email" className="w-full p-4 text-white bg-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg outline-none"/>
                 <textarea name="message" id="message" placeholder=" message" className="w-full p-4 h-32 text-white dark:bg-black dark:border-[#A99886] border-[#A99886] border-2 rounded-lg outline-none"></textarea>
                 
