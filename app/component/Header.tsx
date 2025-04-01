@@ -17,7 +17,7 @@ const Header =()=> {
                 animationFrom={{ opacity: 0, transform: 'translate3d(0,30px,0)' }}
                 animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
             /> */}
-                <h5 className="font-playfair text-black dark:text-white ">Hello, je m&apos;appable</h5>
+                <h5 className="font-playfair text-black dark:text-white ">Hello, je m&apos;appelle</h5>
                 <h3 className="font-allura text-[#A99886] text-9xl  "> Awa Sylla</h3>
                 <p className="font-playfair ">Je suis développeuse web,  j&apos;ai également des notions en design</p>
                 <a href="/assets/CV.pdf" download>
