@@ -17,7 +17,7 @@ export default function DockMenu() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div className="fixed bottom-3 left-1/2 transform -translate-x-1/2 flex bg-[#A99886]/80 backdrop-blur-md px-4 py-2     w-fit gap-2  rounded-2xl shadow-lg">
+    <div className="fixed bottom-3 left-1/2 transform -translate-x-1/2 flex bg-[#A99886]/80 backdrop-blur-md px-4 py-2   dark:bg-white gap-2  rounded-2xl shadow-lg">
       {menuItems.map((item, index) => (
         <motion.div
           key={item.name}
