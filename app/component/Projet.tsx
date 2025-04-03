@@ -19,7 +19,7 @@ const Projet = ()=>{
 
                 <div className="rounded-lg bg-[#A99886] w-[300px] h-[450px] shadow-lg border border-[#A99886]   p-4 cursor-pointer hover:scale-[99%] transition-all duration-700 hover:shadow-bs">
                     <div className="mb-6">
-                        <Image src="/assets/maraxibe.jpg" alt="maraxib" className=" object-cover" width={350} height={400}/>
+                        <Image src="/assets/maraxibe.jpg" alt="maraxib site de vente de vetement et accessoires musulmans" className=" object-cover rounded-lg" width={350} height={400}/>
                     </div>
                     <h2 className="uppercase text-start text-white font-bold">Maraxib Store</h2>
                     <p className="text-start text-white text-sm mt-4">Commandez tout ce dont vous avez besoin dans votre boutique islamique en ligne que ce soit
@@ -32,10 +32,10 @@ const Projet = ()=>{
                     </div>
 
                     <div className="flex  space-x-6  mt-6  ">   
-                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" target="_blank" rel="noopener noreferrer">
                             <FaGithub className="text-2xl border-2 border-black rounded-full" />
                         </a>
-                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                        <a href="https://maraxib-alkaly02s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <IoMdArrowDroprightCircle  className="text-2xl border-2 border-black rounded-full"/>
 
                         </a>
@@ -44,9 +44,9 @@ const Projet = ()=>{
 
                  <div className="rounded-lg bg-[#A99886] w-[300px] h-[450px]   shadow-lg border border-[#A99886]   p-2 cursor-pointer hover:scale-[99%] transition-all duration-700">
                     <div className="mb-6">
-                        <Image src="/assets/maraxibe.jpg" alt="maraxib" className=" object-cover rounded-lg" width={350} height={400}/>
+                        <Image src="/assets/al-mountakha.jpg" alt="maraxib" className=" object-cover rounded-lg" width={1155} height={706}/>
                     </div>
-                    <h2 className="uppercase text-start text-white font-bold">Maraxib Store</h2>
+                    <h2 className="uppercase text-start text-white font-bold">Al-muntakha-vision</h2>
                     <p className="text-start text-white text-sm mt-4">Commandez tout ce dont vous avez besoin dans votre boutique islamique en ligne que ce soit
                     Bayelahat, Laxasay, Coran, Xassida, Tapis de priere, chapelets, etc</p>
 
@@ -57,10 +57,10 @@ const Projet = ()=>{
                     </div>
 
                     <div className="flex  space-x-6  mt-6  ">   
-                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" target="_blank" rel="noopener noreferrer">
                             <FaGithub className="text-2xl border-2 border-black rounded-full" />
                         </a>
-                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                        <a href="https://maraxib-alkaly02s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <IoMdArrowDroprightCircle  className="text-2xl border-2 border-black rounded-full"/>
 
                         </a>
@@ -69,7 +69,7 @@ const Projet = ()=>{
 
                 <div className="rounded-lg bg-[#A99886] w-[300px] h-[450px]  shadow-lg border border-[#A99886]  p-2 cursor-pointer hover:scale-[99%] transition-all duration-700">
                     <div className="mb-6">
-                        <Image src="/assets/maraxibe.jpg" alt="maraxib" className="object-cover rounded-lg" width={350} height={400}/>
+                        <Image src="/assets/design-2.jpg" alt="maraxib" className="object-cover rounded-lg" width={1150} height={706}/>
                     </div>
                     <h2 className="uppercase text-start text-white font-bold">Maraxib Store</h2>
                     <p className="text-start text-white text-sm mt-4">Commandez tout ce dont vous avez besoin dans votre boutique islamique en ligne que ce soit
@@ -82,10 +82,10 @@ const Projet = ()=>{
                     </div>
 
                     <div className="flex  space-x-6  mt-6  ">   
-                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" target="_blank" rel="noopener noreferrer">
                             <FaGithub className="text-2xl border-2 border-black rounded-full" />
                         </a>
-                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" >
+                        <a href="https://maraxib-alkaly02s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <IoMdArrowDroprightCircle  className="text-2xl border-2 border-black rounded-full"/>
 
                         </a>
