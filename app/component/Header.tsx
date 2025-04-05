@@ -8,7 +8,7 @@ import Image from 'next/image';
 const Header =()=> {
     return(
 
-        <div className="flex mt-18 text-center justify-center flex-col md:flex-row space-y-4">
+        <div className="flex mt-18 text-center justify-center flex-col md:flex-row space-y-4 ">
             <div className="mt-24 ">
             {/* <SplitText 
                 text="Hello, je m'appelle"

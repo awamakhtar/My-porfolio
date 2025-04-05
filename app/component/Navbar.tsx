@@ -17,16 +17,16 @@ const Navbar = ({ darkMode, toggleDarkMode}: NavbarProps) => {
   };
 
   return (
-    <nav className="flex justify-between items-center   px-12 bg-white dark:bg-black ">
+    <nav className="flex justify-between items-center   px-16 bg-white dark:bg-black ">
       
        {/* Logo à droit */}
-       <div className="  text-black dark:text-white ">
+       <div className="  text-black dark:text-white whitespace-nowrap text-2xl font-semibold">
         <h4 className="font-allura text-2xl">Awa Sylla</h4>
       </div>
 	
 	 
     {/* Icône de menu burger à gauche */}
-    <button onClick={handleMenuToggle} className="focus:outline-none md:hidden ">
+    <button onClick={handleMenuToggle} className=" focus:outline-none md:hidden   rounded-lg    ">
         {isMenuOpen ? (
           <IoCloseSharp className="w-6 h-6 text-black dark:text-white " />
         ) : (
@@ -43,6 +43,7 @@ const Navbar = ({ darkMode, toggleDarkMode}: NavbarProps) => {
         <a href="#" className={`font-playfair hover:text-[#A99886] ${darkMode ? 'text-white' : 'text-black'}`}>Accueil</a>
         <a href="#competences" className={`font-playfair hover:text-[#A99886] ${darkMode ? 'text-white' : 'text-black'}`}>Compétences</a>
         <a href="#projets" className={`font-playfair hover:text-[#A99886] ${darkMode ? 'text-white' : 'text-black'}`}>Projets</a>
+        <a href="#projets" className={`font-playfair hover:text-[#A99886] ${darkMode ? 'text-white' : 'text-black'}`}>Services</a>
         <a href="#about" className={`font-playfair hover:text-[#A99886] ${darkMode ? 'text-white' : 'text-black'}`}>A Propos</a>
         
         {/* Bouton Contact */}
