@@ -13,7 +13,7 @@ const Competence = () => {
                 <h1 className="absolute  font-playfair bottom-4 bg-[#A99886] text-white font-semibold py-2 px-3 m-4 rounded-full flex items-center  shadow-lg hover:bg-[#A99886]-600 text-xl">
                 <Sparkles className="text-white w-4 h-4"/> Compétences </h1>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2  gap-8 w-full max-w-5xl p-4 mx-16  ">
+            <div className="grid grid-cols-1 md:grid-cols-2  gap-8 w-full max-w-5xl p-4 mx-auto  ">
 
                 <div className="p-6 bg-white dark:bg-black  dark:border-[#A99886] border-[#A99886] border-2 rounded-lg    animate-slideUp delay-100 hover:animate-jump-in cursor-pointer hover:scale-[99%] transition-all duration-700 hover:shadow-bs">
                     <h2 className="font-playfair font-bold text-xl dark:text-white text-black">Front-End</h2>

@@ -17,7 +17,7 @@ const Navbar = ({ darkMode, toggleDarkMode}: NavbarProps) => {
   };
 
   return (
-    <nav className="flex justify-between items-center py-4 px-6 bg-white dark:bg-black ">
+    <nav className="flex justify-between items-center   px-12 bg-white dark:bg-black ">
       
        {/* Logo à droit */}
        <div className="  text-black dark:text-white ">
