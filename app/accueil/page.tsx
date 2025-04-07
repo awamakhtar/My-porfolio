@@ -48,10 +48,11 @@ export default function Accueil() {
             <main className="bg-white dark:bg-black text-black dark:text-white p-8">
                 <Navbar  darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
                 <Header />
+                <About />
                 <Competence />
                 <Projet />
                 {/* <Service /> */}
-                <About />
+                
                 <Contact />
                 <Footer/>
                 <div className="relative">

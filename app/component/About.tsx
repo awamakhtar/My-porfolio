@@ -14,15 +14,17 @@ const About =()=>{
             </div>
         <div className="flex flex-col md:flex-row items-center justify-between w-full">
           <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mb-5 md:mb-0">
-            <p className="text-lg leading-8 font-playfair mx-10">
-              Je suis développeuse web avec une licence en développement web.J&apos;ai acquis une solide expertise en développement full-stack et front-end grâce à mes études et à plusieurs formations.
-              J&apos;ai obtenu deux certifications, l&apos;une en développement full-stack avec Bakeli, et l&apos;autre en développement front-end via le programme Force N. 
-              J&apos;ai également effectué un stage de 6 mois chez Bakeli, où j&apos;ai pu appliquer et approfondir mes compétences dans le développement web.
+            <p className="text-lg leading-8 font-playfair text-center md:text-left ">
+             Je suis <span className="text-black font-bold font-playfair  dark:text-[#A99886]">Awa Sylla</span>, développeuse fullstack junior, passionnée par le design et le marketing digital. Autodidacte, 
+             curieuse et créative, j’ai eu l’occasion de travailler sur plusieurs projets personnels et académiques qui m’ont permis de développer mes compétences aussi bien en frontend
+              (Next.js, Tailwind CSS) qu’en backend (Laravel, Node.js, MongoDB). J’accorde une grande importance à l’esthétique et à l’expérience utilisateur. Mon intérêt pour le design et
+               le marketing digital m’aide à concevoir des interfaces modernes. 
+           <br /> Je suis en constante évolution, toujours à la recherche de nouvelles connaissances, de collaborations enrichissantes et d’opportunités pour mettre mes compétences au service de projets concrets.
             </p>
           </div>
 
-          <div className="md:w-1/2 justify-center md:justify-end">
-            <Image src="/assets/me.png" alt="Awa Sylla Illustration" className="" width={284} height={284} />
+          <div className="md:w-1/2 justify-center  flex">
+            <Image src="/assets/illustration.png" alt="Awa Sylla Illustration" className="" width={384} height={384} />
           </div>
         </div>
       </section>

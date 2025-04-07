@@ -8,7 +8,7 @@ import Image from 'next/image';
 const Header =()=> {
     return(
 
-        <div className="flex mt-18 text-center justify-center flex-col md:flex-row space-y-4 ">
+        <div className="flex mt-18 text-center justify-center flex-col md:flex-row space-y-8 ">
             <div className="mt-24 ">
             {/* <SplitText 
                 text="Hello, je m'appelle"
@@ -17,9 +17,9 @@ const Header =()=> {
                 animationFrom={{ opacity: 0, transform: 'translate3d(0,30px,0)' }}
                 animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
             /> */}
-                <h5 className="font-playfair text-black dark:text-white ">Hello, je m&apos;appelle</h5>
+                <h5 className="font-playfair text-black dark:text-white ">Hello, je suis</h5>
                 <h3 className="font-allura text-[#A99886] text-9xl  "> Awa Sylla</h3>
-                <p className="font-playfair ">Je suis développeuse web,  j&apos;ai également des notions en design</p>
+                <p className="font-playfair ">Je suis développeur fullstack, passionnée de design</p>
                 <a href="/assets/CV.pdf" download>
                     <button  className="font-playfair bg-[#A99886] rounded-full py-2 text-white px-5 mt-5 animate-bounce" >Télécharger CV 
    
