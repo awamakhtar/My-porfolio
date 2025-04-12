@@ -59,9 +59,9 @@ const Projet = ()=>{
                     Bayelahat, Laxasay, Coran, Xassida, Tapis de priere, chapelets, etc</p>
 
                     <div className="flex space-x-4 mt-4 text-sm mx-2">
-                        <div className="text-black bg-white p-1 rounded-sm text-sm">NextJS</div>
-                        <div className="text-black bg-white p-1 rounded-sm text-sm">Tailwind</div>
-                        <div className="text-black bg-white p-1 rounded-sm text-sm">Laravel</div>
+                        <div className="text-black bg-white p-1 rounded-sm text-sm">WordPress</div>
+                        {/* <div className="text-black bg-white p-1 rounded-sm text-sm">Tailwind</div>
+                        <div className="text-black bg-white p-1 rounded-sm text-sm">Laravel</div> */}
                     </div>
 
                     <div className="flex  space-x-6  mt-4 mx-2  ">   
@@ -84,9 +84,9 @@ const Projet = ()=>{
                     Bayelahat, Laxasay, Coran, Xassida, Tapis de priere, chapelets, etc</p>
 
                     <div className="flex space-x-4 mt-4 text-sm mx-2">
-                        <div className="text-black bg-white p-1 rounded-sm text-sm">NextJS</div>
-                        <div className="text-black bg-white p-1 rounded-sm text-sm">Tailwind</div>
-                        <div className="text-black bg-white p-1 rounded-sm text-sm">Laravel</div>
+                        <div className="text-black bg-white p-1 rounded-sm text-sm">Bootstrap</div>
+                        <div className="text-black bg-white p-1 rounded-sm text-sm">HTML</div>
+                        <div className="text-black bg-white p-1 rounded-sm text-sm">CSS</div>
                     </div>
 
                     <div className="flex  space-x-6  mt-4  mx-2">   
