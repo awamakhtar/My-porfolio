@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { FiSend } from "react-icons/fi";
-import { FaInstagram,FaLinkedinIn,FaGithub,FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn,FaGithub,FaWhatsapp } from "react-icons/fa";
 import { Sparkles } from "lucide-react";
 
 
@@ -30,11 +30,9 @@ const Contact =()=>{
             
         
           <div className="w-full md:w-1/2 flex flex-col items-center md:items-end mt-8 md:mt-0">
-              <Image src="/assets/contact.png" width={400} height={400} alt="Illustration Contact"/>            
-              <div className="flex space-x-4 mt-4">              
-                  <a href="https://www.instagram.com/awasyllamakhtar/"  target="_blank" rel="noopener noreferrer"  className="rounded-full bg-[#A99886]  dark:text-black dark:bg-[#A99886] w-10 h-10 flex items-center justify-center hover:animate-bounce ">
-                      <FaInstagram className=" text-white dark:text-black text-2xl"/>
-                  </a>
+
+              <Image src="/assets/contact.png" width={400} height={500} alt="Illustration Contact"/>            
+              <div className="flex space-x-4 mt-4">                             
                   <a href="https://www.linkedin.com/in/awa-makhtar-sylla-2b6394188/"  target="_blank" rel="noopener noreferrer" className="rounded-full bg-[#A99886] dark:text-black dark:bg-[#A99886] w-10 h-10 flex items-center justify-center hover:animate-bounce">
                       <FaLinkedinIn className=" text-white dark:text-black text-2xl"/>
                   </a>
