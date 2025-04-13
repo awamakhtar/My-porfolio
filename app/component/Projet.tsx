@@ -1,8 +1,7 @@
 
 import Image from 'next/image';
 import { Sparkles } from "lucide-react";
-import { FaGithub } from "react-icons/fa";
-import { IoMdArrowDroprightCircle } from "react-icons/io";
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 
 
@@ -10,7 +9,6 @@ import { IoMdArrowDroprightCircle } from "react-icons/io";
 const Projet = ()=>{
     return(
         <div className="  dark:text-white text-black " id="projets">
-            {/* <h1 className="font-playfair text-4xl font-bold text-[#A99886] my-8 flex-col md:flex-row">Mes Réalisations</h1> */}
             <div className="relative  h-44  flex items-center justify-center">
                 <h1 className="absolute font-playfair bottom-3 bg-[#A99886] text-white font-semibold py-2 px-3 m-4 rounded-full flex items-center  shadow-lg hover:bg-[#A99886]-600 text-xl">
                 <Sparkles className="text-white w-4 h-4"/>Réalisations</h1>
@@ -39,14 +37,15 @@ const Projet = ()=>{
                         <div className="text-black bg-white p-1 rounded-sm text-sm">Laravel</div>
                     </div>
 
-                    <div className="flex  space-x-6  mt-3 mx-2  ">   
-                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" target="_blank" rel="noopener noreferrer">
-                            <FaGithub className="text-2xl border-2 border-black rounded-full" />
-                        </a>
-                        <a href="https://maraxib-alkaly02s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
-                        <IoMdArrowDroprightCircle  className="text-2xl border-2 border-black rounded-full"/>
+                    <div className="flex  space-x-1  mt-3 mx-2  ">   
 
-                        </a>
+                        <div className=" text-white">
+                            <a href="https://maraxib-alkaly02s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            voir projet
+                            </a>
+                        </div>           
+                        <FaExternalLinkAlt className="text-white mt-2 text-xs" />
+                       
                     </div>
                 </div>
 
@@ -60,18 +59,15 @@ const Projet = ()=>{
 
                     <div className="flex space-x-4 mt-4 text-sm mx-2">
                         <div className="text-black bg-white p-1 rounded-sm text-sm">WordPress</div>
-                        {/* <div className="text-black bg-white p-1 rounded-sm text-sm">Tailwind</div>
-                        <div className="text-black bg-white p-1 rounded-sm text-sm">Laravel</div> */}
                     </div>
 
-                    <div className="flex  space-x-6  mt-4 mx-2  ">   
-                        <a href="https://github.com/bakeli-OpenSource/maraxib-store-web" target="_blank" rel="noopener noreferrer">
-                            <FaGithub className="text-2xl border-2 border-black rounded-full" />
-                        </a>
-                        <a href="https://maraxib-alkaly02s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
-                        <IoMdArrowDroprightCircle  className="text-2xl border-2 border-black rounded-full"/>
-
-                        </a>
+                    <div className="flex  space-x-1  mt-4 mx-2  ">   
+                    <div className=" text-white">
+                            <a href="https://maraxib-alkaly02s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            voir projet
+                            </a>
+                        </div>           
+                        <FaExternalLinkAlt className="text-white mt-2 text-xs" />
                     </div>
                 </div>
 
@@ -88,14 +84,13 @@ const Projet = ()=>{
                         <div className="text-black bg-white p-1 rounded-sm text-sm">CSS</div>
                     </div>
 
-                    <div className="flex  space-x-6  mt-4  mx-2">   
-                        <a href="https://github.com/awamakhtar/Site_Bootstrap" target="_blank" rel="noopener noreferrer">
-                            <FaGithub className="text-2xl border-2 border-black rounded-full" />
-                        </a>
-                        <a href="https://site-bootstrap-umber.vercel.app/#topics" target="_blank" rel="noopener noreferrer">
-                        <IoMdArrowDroprightCircle  className="text-2xl border-2 border-black rounded-full"/>
-
-                        </a>
+                    <div className="flex  space-x-1  mt-4  mx-2">   
+                    <div className=" text-white">
+                            <a href="https://site-bootstrap-umber.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            voir projet
+                            </a>
+                        </div>           
+                        <FaExternalLinkAlt className="text-white mt-2 text-xs" />
                     </div>
                 </div>
 
