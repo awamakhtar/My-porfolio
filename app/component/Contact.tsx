@@ -29,7 +29,7 @@ const Contact =()=>{
             </div>
             
         
-          <div className="w-full md:w-1/2 flex flex-col items-center md:items-end mt-8 md:mt-0">
+          <div className="w-full md:w-1/2 flex flex-col items-center md:items-center mt-8 md:mt-0">
 
               <Image src="/assets/contact.png" width={400} height={500} alt="Illustration Contact"/>            
               <div className="flex space-x-4 mt-4">                             
