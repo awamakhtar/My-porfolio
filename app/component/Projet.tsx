@@ -33,7 +33,7 @@ const Projet = ()=>{
                     <p className="text-start text-white text-sm mt-4 mx-2">Commandez tout ce dont vous avez besoin dans votre boutique islamique en ligne que ce soit
                     Bayelahat, Laxasay, Coran, Xassida, Tapis de priere, chapelets, etc</p>
 
-                    <div className="flex space-x-4 mt-4 text-sm mx-2">
+                    <div className="flex space-x-4 mt-8 text-sm mx-2">
                         <div className="text-black bg-white p-1 rounded-sm text-sm">NextJS</div>
                         <div className="text-black bg-white p-1 rounded-sm text-sm">Tailwind</div>
                         <div className="text-black bg-white p-1 rounded-sm text-sm">Laravel</div>
@@ -55,8 +55,8 @@ const Projet = ()=>{
                         <Image src="/assets/al-mountakha.jpg" alt="maraxib" className=" object-cover rounded-lg" width={1155} height={706}/>
                     </div>
                     <h2 className="uppercase text-start text-white font-bold mx-2">Al-muntakha-vision</h2>
-                    <p className="text-start text-white text-sm mt-4 mx-2">Commandez tout ce dont vous avez besoin dans votre boutique islamique en ligne que ce soit
-                    Bayelahat, Laxasay, Coran, Xassida, Tapis de priere, chapelets, etc</p>
+                    <p className="text-start text-white text-sm mt-4 mx-2">Al-Muntakha Vision est une boutique en ligne dédiée à la vente de lunettes pour femmes et hommes, soigneusement
+                         sélectionnées pour allier élégance, confort et qualité </p>
 
                     <div className="flex space-x-4 mt-4 text-sm mx-2">
                         <div className="text-black bg-white p-1 rounded-sm text-sm">WordPress</div>
@@ -79,11 +79,10 @@ const Projet = ()=>{
                     <div className="mb-6">
                         <Image src="/assets/bootsrap.jpg" alt="maraxib" className="object-cover rounded-lg" width={1150} height={706}/>
                     </div>
-                    <h2 className="uppercase text-start text-white font-bold mx-2">Maraxib Store</h2>
-                    <p className="text-start text-white text-sm mt-4 mx-2">Commandez tout ce dont vous avez besoin dans votre boutique islamique en ligne que ce soit
-                    Bayelahat, Laxasay, Coran, Xassida, Tapis de priere, chapelets, etc</p>
+                    <h2 className="uppercase text-start text-white font-bold mx-2">Site Vitrine</h2>
+                    <p className="text-start text-white text-sm mt-4 mx-2">Ce site vitrine a été conçu dans le cadre de ma pratique de Bootstrap, afin de mettre en application les composants, grilles et utilitaires proposés par le framework</p>
 
-                    <div className="flex space-x-4 mt-4 text-sm mx-2">
+                    <div className="flex space-x-4 mt-8 text-sm mx-2">
                         <div className="text-black bg-white p-1 rounded-sm text-sm">Bootstrap</div>
                         <div className="text-black bg-white p-1 rounded-sm text-sm">HTML</div>
                         <div className="text-black bg-white p-1 rounded-sm text-sm">CSS</div>

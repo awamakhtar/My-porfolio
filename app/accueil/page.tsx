@@ -4,11 +4,15 @@ import Navbar from "../component/Navbar"
 import Header from "../component/Header"
 import Competence from "../component/Competence"
 import Projet  from "../component/Projet"
-// import Service  from "../component/Service"
+
 import About  from "../component/About"
 import Contact  from "../component/Contact"
 import Footer  from "../component/Footer"
 import DockMenu from "../component/DockMenu";
+import AnimatedSection from "../component/AnimatedSection"
+
+
+
 
 
 
@@ -48,12 +52,22 @@ export default function Accueil() {
             <main className="bg-white dark:bg-black text-black dark:text-white p-8">
                 <Navbar  darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
                 <Header />
-                <About />
-                <Competence />
-                <Projet />
-                {/* <Service /> */}
-                
-                <Contact />
+
+                <AnimatedSection direction="up" delay="delay-300">
+                  <About />
+                </AnimatedSection>
+
+                <AnimatedSection direction="up" delay="delay-300">
+                  <Competence />
+                </AnimatedSection>
+
+                <AnimatedSection direction="up" delay="delay-300">
+                    <Projet />
+                </AnimatedSection>
+               
+                <AnimatedSection direction="up" delay="delay-300">
+                    <Contact />
+                </AnimatedSection>
                 <Footer/>
                 <div className="relative">
                  

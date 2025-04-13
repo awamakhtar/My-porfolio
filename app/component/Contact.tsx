@@ -9,8 +9,6 @@ const Contact =()=>{
     return(
     
       <div className="flex flex-col items-center justify-center dark:text-white text-black  px-6" id="contact">
-    
-          {/* <h1 className="text-4xl font-bold text-[#A99886] mb-8 text-center font-playfair">Contact</h1> */}
          <div className="relative  h-44  flex items-center justify-center">
                 <h1 className="absolute font-playfair bottom-5 bg-[#A99886] text-white font-semibold py-2 px-3 m-4  text-xl rounded-full flex items-center  shadow-lg hover:bg-[#A99886]-600">
                 <Sparkles className="text-white w-4 h-4"/> Contact
@@ -32,7 +30,7 @@ const Contact =()=>{
             
         
           <div className="w-full md:w-1/2 flex flex-col items-center md:items-end mt-8 md:mt-0">
-              <Image src="/assets/contact.png" width={400} height={400} alt="Illustration Contact"/>
+              <Image src="/assets/contact.png" width={400} height={400} alt="Illustration Contact"/>            
               <div className="flex space-x-4 mt-4">              
                   <a href="https://www.instagram.com/awasyllamakhtar/"  target="_blank" rel="noopener noreferrer"  className="rounded-full bg-[#A99886]  dark:text-black dark:bg-[#A99886] w-10 h-10 flex items-center justify-center hover:animate-bounce ">
                       <FaInstagram className=" text-white dark:text-black text-2xl"/>
@@ -43,7 +41,8 @@ const Contact =()=>{
                   <a href="https://github.com/awamakhtar"  target="_blank" rel="noopener noreferrer" className="rounded-full bg-[#A99886] dark:text-black dark:bg-[#A99886] w-10 h-10 flex items-center justify-center hover:animate-bounce">
                       <FaGithub className=" text-white dark:text-black text-2xl"/>
                   </a>
-                  <a href="#"  target="_blank" rel="noopener noreferrer" className="rounded-full bg-[#A99886] dark:text-black dark:bg-[#A99886] w-10 h-10 flex items-center justify-center hover:animate-bounce">
+                  <a href="https://wa.me/221778666064?text=Bonjour%20Awa%20Sylla%20%F0%9F%91%8B,%0AJe%20viens%20de%20visiter%20votre%20portfolio%20et%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20votre%20profil.%20Pourrions-nous%20%C3%A9changer%20?" 
+                   target="_blank" rel="noopener noreferrer" className="rounded-full bg-[#A99886] dark:text-black dark:bg-[#A99886] w-10 h-10 flex items-center justify-center hover:animate-bounce">
                       <FaWhatsapp className= "text-white dark:text-black text-2xl"/>
                   </a>
               </div>

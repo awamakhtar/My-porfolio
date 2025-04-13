@@ -23,7 +23,7 @@ const About =()=>{
             </p>
           </div>
 
-          <div className="md:w-1/2 justify-center  flex">
+          <div className="md:w-1/2 justify-center  flex mx-auto">
             <Image src="/assets/illustration.png" alt="Awa Sylla Illustration" className="" width={384} height={384} />
           </div>
         </div>
