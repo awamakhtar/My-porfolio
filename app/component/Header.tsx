@@ -7,8 +7,7 @@ import Image from 'next/image';
 
 const Header =()=> {
     return(
-
-        <div className="flex mt-18 text-center justify-center flex-col md:flex-row space-x-8 m-8 ">
+        <div className="flex flex-col md:flex-row items-center  md:items-start  mt-18 text-center justify-center   space-x-8 m-8 ">
             <div className="mt-24 ">
                 <h5 className="font-playfair text-black dark:text-white ">Hello, je suis</h5>
                 <h3 className="font-allura text-[#A99886] text-9xl  "> Awa Sylla</h3>
@@ -20,8 +19,8 @@ const Header =()=> {
                 </a>
             </div>
 
-            <div className="px-24">
-                <Image  src="/assets/profile-pic.png" alt="" width={300} height={250}  className='w-full h-auto'/>
+            <div className="px-24 sm:mt-12 flex justify-center items-center ">
+                <Image  src="/assets/profile-pic.png" alt="" width={300} height={250}  className="w-full shadow-lg rounded-full"/>
             </div>
         </div>
     );

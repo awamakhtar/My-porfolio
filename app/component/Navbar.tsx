@@ -24,7 +24,7 @@ const Navbar = ({ darkMode, toggleDarkMode }: NavbarProps) => {
 
       {/* Icône menu burger visible uniquement sur mobile */}
       <button onClick={handleMenuToggle} className="md:hidden">
-        <MdMenu className="w-6 h-6 text-black dark:text-white" />
+        <MdMenu className="w-6 h-6 text-black dark:text-white " />
       </button>
 
       {/* Menu desktop */}
@@ -49,7 +49,7 @@ const Navbar = ({ darkMode, toggleDarkMode }: NavbarProps) => {
         </button>
       </div>
 
-    {/* Menu desktop - modal fullscreen  */}
+    {/* Menu desktop  */}
       {isMenuOpen && (
         <div className="fixed inset-0 z-50 bg-white dark:bg-black flex flex-col px-6 py-4 animate-fade-slide-down">
           {/* Barre du haut : logo + close */}
@@ -62,7 +62,6 @@ const Navbar = ({ darkMode, toggleDarkMode }: NavbarProps) => {
             </button>
           </div>
 
-          {/* Liens de navigation au centre */}
           <div className="flex flex-col items-center space-y-8">
             <a href="#" onClick={handleMenuToggle} className={`font-playfair text-xl hover:text-[#A99886] ${darkMode ? 'text-white' : 'text-black'}`}>Accueil</a>
             <a href="#about" onClick={handleMenuToggle} className={`font-playfair text-xl hover:text-[#A99886] ${darkMode ? 'text-white' : 'text-black'}`}>À propos</a>
