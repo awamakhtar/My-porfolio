@@ -110,7 +110,7 @@ const Projet = ()=>{
 
                     <div className="flex  space-x-1  mt-4  mx-2">   
                     <div className=" text-white">
-                            <a href="https://site-bootstrap-umber.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://cv-nu-sand.vercel.app/" target="_blank" rel="noopener noreferrer">
                             voir projet
                             </a>
                         </div>           
