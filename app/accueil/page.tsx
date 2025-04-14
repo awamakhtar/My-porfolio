@@ -39,16 +39,7 @@ export default function Accueil() {
     
     return(
         <div className="min-h-screen">
-            {/* <button
-            onClick={toggleDarkMode}
-            className="p-2 bg-gray-800 text-white dark:bg-gray-300 dark:text-black"
-            >
-             {darkMode ? (
-                        <SunIcon className="w-6 h-6 text-white-400" />
-                    ) : (
-                        <MoonIcon className="w-6 h-6 text-black-600" />
-                    )}
-            </button> */}
+            
             <main className="bg-white dark:bg-black text-black dark:text-white p-8">
                 <Navbar  darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
                 <Header />
