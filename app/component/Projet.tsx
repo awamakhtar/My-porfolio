@@ -139,6 +139,52 @@ const Projet = ()=>{
                     </div>
                 </div>
 
+                <div className="mx-auto rounded-lg bg-[#A99886] w-[300px] h-[450px]  shadow-lg border border-[#A99886]  cursor-pointer hover:scale-[99%] transition-all duration-700">
+                    <div className="mb-6">
+                        <Image src="/assets/stocksite.jpg" alt="maraxib" className="object-cover rounded-tl-md rounded-tr-md" width={1150} height={706}/>
+                    </div>
+                    <h2 className="uppercase text-start text-white font-bold mx-2"> Maquette de mon portfolio </h2>
+                    <p className="text-start text-white text-sm mt-4 mx-2">Ce site est conçu pour la présentation de l&apos;application  Sunu Stock et de ces différentes fonctionnalités </p>
+
+                    <div className="flex space-x-4 mt-8 text-sm mx-2">
+                        <div className="text-black bg-white p-1 rounded-sm text-sm">Wordpress</div>
+                    </div>
+
+                    <div className="flex  space-x-1  mt-4  mx-2">   
+                    <div className=" text-white">
+                            <a href="https://www.sunu-stock.ndiagandiaye.com/" target="_blank" rel="noopener noreferrer">
+                            voir projet
+                            </a>
+                        </div>           
+                        <FaExternalLinkAlt className="text-white mt-2 text-xs" />
+                    </div>
+                </div>
+
+                <div className="mx-auto rounded-lg bg-[#A99886] w-[300px] h-[450px]  shadow-lg border border-[#A99886]  cursor-pointer hover:scale-[99%] transition-all duration-700">
+                    <div className="mb-6">
+                        <Image src="/assets/sunustock.jpg" alt="maraxib" className="object-cover rounded-tl-md rounded-tr-md" width={1150} height={706}/>
+                    </div>
+                    <h2 className="uppercase text-start text-white font-bold mx-2"> Maquette de mon portfolio </h2>
+                    <p className="text-start text-white text-sm mt-4 mx-2">Il s&lsquo;agit d&apos;une application web développée dans le cadre de notre soutenance de fin de formation.
+                         Elle permet de gérer efficacement les stocks d’une entreprise en temps réel. </p>
+
+                    <div className="flex space-x-4 mt-8 text-sm mx-2">
+                        <div className="text-black bg-white p-1 rounded-sm text-sm">Laravel</div>
+                        <div className="text-black bg-white p-1 rounded-sm text-sm">Bootstrap</div>
+                        <div className="text-black bg-white p-1 rounded-sm text-sm">CSS</div>
+                        <div className="text-black bg-white p-1 rounded-sm text-sm">MySQL</div>
+                    </div>
+
+                    <div className="flex  space-x-1  mt-4  mx-2">   
+                    <div className=" text-white">
+                            <a href="https://app-stock.ndiagandiaye.com/login" target="_blank" rel="noopener noreferrer">
+                            voir projet
+                            </a>
+                        </div>           
+                        <FaExternalLinkAlt className="text-white mt-2 text-xs" />
+                    </div>
+                </div>
+
 
                 
 
