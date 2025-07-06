@@ -12,7 +12,7 @@ const Header =()=> {
                 <h5 className="font-playfair text-black dark:text-white ">Hello, je suis</h5>
                 <h3 className="font-allura text-[#A99886] text-9xl  "> Awa Sylla</h3>
                 <p className="font-playfair ">Je suis développeur fullstack, passionnée de design</p>
-                <a href="/assets/CV.pdf" download>
+                <a href="/assets/Awa_Sylla.pdf" download>
                     <button  className="font-playfair bg-[#A99886] rounded-full py-2 text-white px-5 mt-5 animate-bounce" >
                     Télécharger CV 
                     </button>
