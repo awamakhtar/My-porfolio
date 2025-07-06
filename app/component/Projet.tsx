@@ -143,7 +143,7 @@ const Projet = ()=>{
                     <div className="mb-6">
                         <Image src="/assets/stocksite.jpg" alt="maraxib" className="object-cover rounded-tl-md rounded-tr-md" width={1150} height={706}/>
                     </div>
-                    <h2 className="uppercase text-start text-white font-bold mx-2"> Maquette de mon portfolio </h2>
+                    <h2 className="uppercase text-start text-white font-bold mx-2"> Site vitrine de sunu stock</h2>
                     <p className="text-start text-white text-sm mt-4 mx-2">Ce site est conçu pour la présentation de l&apos;application  Sunu Stock et de ces différentes fonctionnalités </p>
 
                     <div className="flex space-x-4 mt-8 text-sm mx-2">
@@ -164,7 +164,7 @@ const Projet = ()=>{
                     <div className="mb-6">
                         <Image src="/assets/sunustock.jpg" alt="maraxib" className="object-cover rounded-tl-md rounded-tr-md" width={1150} height={706}/>
                     </div>
-                    <h2 className="uppercase text-start text-white font-bold mx-2"> Maquette de mon portfolio </h2>
+                    <h2 className="uppercase text-start text-white font-bold mx-2"> Sunu stock</h2>
                     <p className="text-start text-white text-sm mt-4 mx-2">Il s&lsquo;agit d&apos;une application web développée dans le cadre de notre soutenance de fin de formation.
                          Elle permet de gérer efficacement les stocks d’une entreprise en temps réel. </p>
 
