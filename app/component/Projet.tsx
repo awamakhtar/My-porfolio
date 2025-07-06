@@ -99,7 +99,7 @@ const Projet = ()=>{
                     <div className="mb-6">
                         <Image src="/assets/cv-projet.jpg" alt="maraxib" className="object-cover rounded-tl-md rounded-tr-md" width={1150} height={706}/>
                     </div>
-                    <h2 className="uppercase text-start text-white font-bold mx-2">Site Vitrine</h2>
+                    <h2 className="uppercase text-start text-white font-bold mx-2">CV en lign</h2>
                     <p className="text-start text-white text-sm mt-4 mx-2">Ce projet met en avant mon profil, mes compétences, mes projets et mes coordonnées de manière responsive.</p>
 
                     <div className="flex space-x-4 mt-8 text-sm mx-2">
