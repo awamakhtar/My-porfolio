@@ -23,31 +23,7 @@ const Projet = ()=>{
            
             <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 w-full max-w-5xl p-4  mx-auto ">
 
-                <div className="mx-auto rounded-lg bg-[#A99886] w-[300px] h-[450px] shadow-lg border border-[#A99886]   cursor-pointer hover:scale-[99%] transition-all duration-700 hover:shadow-bs">
-                    <div className="mb-6">
-                        <Image src="/assets/maraxibe.jpg" alt="maraxib site de vente de vetement et accessoires musulmans" className=" object-cover rounded-tl-md rounded-tr-md" width={350} height={400}/>
-                    </div>
-                    <h2 className="uppercase text-start text-white font-bold mx-2">Maraxib Store</h2>
-                    <p className="text-start text-white text-sm mt-4 mx-2">Commandez tout ce dont vous avez besoin dans votre boutique islamique en ligne que ce soit
-                    Bayelahat, Laxasay, Coran, Xassida, Tapis de priere, chapelets, etc</p>
-
-                    <div className="flex space-x-4 mt-8 text-sm mx-2">
-                        <div className="text-black bg-white p-1 rounded-sm text-sm">NextJS</div>
-                        <div className="text-black bg-white p-1 rounded-sm text-sm">Tailwind</div>
-                        <div className="text-black bg-white p-1 rounded-sm text-sm">Laravel</div>
-                    </div>
-
-                    <div className="flex  space-x-1  mt-3 mx-2  ">   
-
-                        <div className=" text-white">
-                            <a href="https://maraxib-alkaly02s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
-                            voir projet
-                            </a>
-                        </div>           
-                        <FaExternalLinkAlt className="text-white mt-2 text-xs" />
-                       
-                    </div>
-                </div>
+              
 
                  <div className="mx-auto rounded-lg bg-[#A99886] w-[300px] h-[450px]   shadow-lg border border-[#A99886]    cursor-pointer hover:scale-[99%] transition-all duration-700">
                     <div className="mb-6">
