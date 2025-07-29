@@ -39,7 +39,7 @@ const Projet = ()=>{
 
                     <div className="flex  space-x-1  mt-4 mx-2  ">   
                     <div className=" text-white">
-                            <a href="https://maraxib-alkaly02s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://maraxib-store-web.vercel.app/acceuil" target="_blank" rel="noopener noreferrer">
                             voir projet
                             </a>
                         </div>           
