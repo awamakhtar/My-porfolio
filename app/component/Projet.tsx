@@ -25,7 +25,7 @@ const Projet = ()=>{
 
               <div className="mx-auto rounded-lg bg-[#A99886] w-[300px] h-[450px]   shadow-lg border border-[#A99886]    cursor-pointer hover:scale-[99%] transition-all duration-700">
                     <div className="mb-6">
-                        <Image src="/assets/maraxibe.jpg" alt="maraxib" className=" object-cover rounded-tl-md rounded-tr-md" width={1155} height={706}/>
+                        <Image src="/assets/maraxib.png" alt="maraxib" className=" object-cover rounded-tl-md rounded-tr-md" width={1155} height={706}/>
                     </div>
                     <h2 className="uppercase text-start text-white font-bold mx-2">Maraxib Store</h2>
                     <p className="text-start text-white text-sm mt-4 mx-2">Maraxib est une boutique en ligne dédiée à la vente de vêtements et accessoires musulmans pour hommes et femmes. 
