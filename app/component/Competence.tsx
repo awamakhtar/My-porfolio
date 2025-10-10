@@ -1,7 +1,7 @@
 "use client";
 
-import { FaBootstrap, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaGithub, FaLaravel, FaWordpress } from 'react-icons/fa';
-import { SiNextdotjs, SiMysql, SiMongodb, SiTailwindcss, SiFigma, SiVercel, SiCanva, SiAdobephotoshop } from 'react-icons/si';
+import { FaBootstrap,FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaGithub, FaLaravel, FaWordpress } from 'react-icons/fa';
+import { SiNextdotjs, SiMysql, SiTailwindcss, SiFigma, SiVercel, SiCanva, SiAdobephotoshop } from 'react-icons/si';
 import { Sparkles } from "lucide-react";
 
 
@@ -25,6 +25,10 @@ const Competence = () => {
                         <li className="flex items-center space-x-2">
                             <FaHtml5 className="w-6 h-6  rounded-full  dark:text-black dark:bg-white" />
                             <span className="font-playfair">HTML</span>
+                        </li>
+                        <li className="flex items-center space-x-2">
+                            <FaReact className="w-6 h-6 rounded-full  dark:bg-black " />
+                            <span>React</span>
                         </li>
                         <li className="flex items-center space-x-2">
                             <SiNextdotjs className="w-6 h-6 rounded-full  dark:bg-black " />
@@ -52,10 +56,10 @@ const Competence = () => {
                             <SiMysql className="w-6 h-6  rounded-full  dark:text-black dark:bg-white" />
                             <span>MySQL</span>
                         </li>
-                        <li className="flex items-center space-x-2">
-                            <SiMongodb className="w-6 h-6  rounded-full  dark:text-black dark:bg-white" />
-                            <span>MongoDB</span>
-                        </li>
+                        {/* <li className="flex items-center space-x-2"> */}
+                            {/* <SiMongodb className="w-6 h-6  rounded-full  dark:text-black dark:bg-white" /> */}
+                            {/* <span>MongoDB</span> */}
+                        {/* </li> */}
                     </ul>
                 </div>
 
