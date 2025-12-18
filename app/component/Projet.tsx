@@ -205,7 +205,7 @@ const Projet = () => {
                 <div className="mx-auto rounded-lg bg-[#A99886] w-full max-w-[350px] min-h-[480px] flex flex-col shadow-lg border border-[#A99886] cursor-pointer hover:scale-[99%] transition-all duration-700">
                     <div className="flex-shrink-0">
                         <Image 
-                            src="/assets/Bibliotheque.jpg" 
+                            src="/assets/bibliotheque.jpg" 
                             alt="nouveau projet" 
                             className="object-cover rounded-tl-md rounded-tr-md w-full h-48" 
                             width={1150} 
