@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { Sparkles, GraduationCap, Lightbulb, Rocket } from "lucide-react";
 
 const stats = [
-  { value: "10+", label: "Projets réalisés" },
-  { value: "2+", label: "Ans d'expérience" },
+  { value: "3+", label: "Technologies maîtrisées" },
+  { value: "3+", label: "Certifications obtenues" },
   { value: "100%", label: "Passion & créativité" },
 ];
 
