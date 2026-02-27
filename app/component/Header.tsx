@@ -6,31 +6,14 @@ import { Download, Code2, Palette } from 'lucide-react';
 const Header = () => {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 py-20" id="header">
-
-            {/* ── Fond décoratif ── */}
             <div className="absolute inset-0 -z-10">
-                {/* Cercle flou chaud en haut à droite */}
                 <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#A99886]/20 dark:bg-[#A99886]/10 rounded-full blur-[120px] translate-x-1/3 -translate-y-1/4" />
-                {/* Cercle flou froid en bas à gauche */}
                 <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#c9b9a8]/15 dark:bg-[#A99886]/8 rounded-full blur-[100px] -translate-x-1/3 translate-y-1/4" />
-                {/* Grille subtile */}
-                <div
-                    className="absolute inset-0 opacity-[0.03] dark:opacity-[0.05]"
-                    style={{
-                        backgroundImage:
-                            'linear-gradient(#A99886 1px, transparent 1px), linear-gradient(90deg, #A99886 1px, transparent 1px)',
-                        backgroundSize: '60px 60px',
-                    }}
-                />
+                <div className="absolute inset-0 opacity-[0.03] dark:opacity-[0.05] grid-background" />
             </div>
 
-            {/* ── Contenu principal ── */}
             <div className="w-full max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-20">
-
-                {/* ── Colonne texte ── */}
                 <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left space-y-6 animate-fadeInLeft">
-
-                    {/* Badge statut */}
                     <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#A99886]/50 bg-[#A99886]/10 text-[#A99886] text-xs font-playfair tracking-widest uppercase">
                         <span className="w-1.5 h-1.5 rounded-full bg-[#A99886] animate-pulse" />
                         Disponible pour un projet
@@ -57,8 +40,6 @@ const Header = () => {
                     <p className="font-playfair text-base text-black/70 dark:text-white/70 max-w-sm leading-relaxed">
                         Développeuse <span className="text-[#A99886] font-semibold">Fullstack</span>, passionnée de design et d&apos;interfaces qui racontent quelque chose.
                     </p>
-
-                    {/* Chips spécialités */}
                     <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                         {[
                             { icon: <Code2 className="w-3.5 h-3.5" />, label: "Fullstack Dev" },
@@ -82,20 +63,13 @@ const Header = () => {
                         </button>
                     </a>
                 </div>
-
-                {/* ── Colonne image ── */}
+                        {/* image */}
                 <div className="relative flex-shrink-0 animate-fadeInRight">
 
                     {/* Cercle décoratif tournant */}
                     <div className="absolute inset-0 m-auto w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[360px] md:h-[360px] rounded-full border-2 border-dashed border-[#A99886]/30 animate-spin-slow" />
-
-                    {/* Cadre image */}
                     <div className="relative w-[240px] h-[240px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] m-[30px] sm:m-[35px] md:m-[40px]">
-
-                        {/* Ombre colorée derrière l'image */}
                         <div className="absolute inset-0 rounded-full bg-[#A99886]/30 blur-xl scale-90 translate-y-4" />
-
-                        {/* Ring décoratif */}
                         <div className="absolute -inset-3 rounded-full border border-[#A99886]/40" />
                         <div className="absolute -inset-6 rounded-full border border-[#A99886]/20" />
 
@@ -109,8 +83,6 @@ const Header = () => {
                             priority
                         />
                     </div>
-
-                    {/* Pastille flottante — expérience */}
                     <div className="absolute -bottom-2 -left-4 md:-left-8 bg-white dark:bg-black border border-[#A99886]/40 rounded-2xl px-4 py-2 shadow-lg flex items-center gap-2 animate-float">
                         <span className="text-xl">✨</span>
                         <div className="text-left">
@@ -119,7 +91,7 @@ const Header = () => {
                         </div>
                     </div>
 
-                    {/* Pastille flottante — stack */}
+                    {/* stack  flottant*/}
                     <div className="absolute -top-2 -right-4 md:-right-8 bg-[#A99886] rounded-2xl px-4 py-2 shadow-lg animate-float-delay">
                         <p className="text-[10px] text-white/70 font-playfair uppercase tracking-wider">Stack</p>
                         <p className="text-xs font-semibold font-playfair text-white">Next.js · Laravel</p>
@@ -150,6 +122,10 @@ const Header = () => {
                 .animate-float       { animation: float 3s ease-in-out infinite; }
                 .animate-float-delay { animation: float 3s ease-in-out 1.5s infinite; }
                 .animate-spin-slow   { animation: spin-slow 18s linear infinite; }
+                .grid-background {
+                    background-image: linear-gradient(#A99886 1px, transparent 1px), linear-gradient(90deg, #A99886 1px, transparent 1px);
+                    background-size: 60px 60px;
+                }
             `}</style>
         </section>
     );
