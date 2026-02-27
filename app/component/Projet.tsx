@@ -33,7 +33,7 @@ const projects = [
     title: "Intégration Maquette",
     description: "Transformation d'une maquette Figma en une interface interactive et responsive.",
     tags: ["React", "Tailwind CSS"],
-    href: "https://www.behance.net/gallery/219421371/Porfolio",
+    href: "https://projet-react-aa74.vercel.app/",
     status: "live",
   },
   {
@@ -60,6 +60,14 @@ const projects = [
     href: "https://defi-technique.vercel.app/",
     status: "live",
   },
+  {
+  image: "/assets/Defi.jpg",
+  title: "Défi Technique",
+  description: "Cette maquette est une refonte du landing page de CloudFacile, réalisée sur Figma dans le cadre d’un défi technique en design UI/UX.",
+  tags: ["HTML", "CSS", "JS"],
+  href: "https://www.behance.net/gallery/244925899/Defi-Technique",
+  status: "live",
+},
 ];
 
 const ProjectCard = ({ image, title, description, tags, href, status }: { image: string; title: string; description: string; tags: string[]; href: string | null; status: string }) => (
