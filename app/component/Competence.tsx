@@ -50,7 +50,7 @@ const Competence = () => {
       id="competences"
     >
       {/* Title */}
-      <div className="relative h-44 flex items-center justify-center w-full">
+      <div className="relative h-24 flex items-center justify-center">
         <h1 className="absolute bottom-4 bg-[#A99886] text-white font-semibold py-2 px-4 rounded-full flex items-center gap-2 shadow-lg text-xl font-playfair">
           <Sparkles className="w-4 h-4" /> Compétences
         </h1>

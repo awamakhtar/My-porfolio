@@ -21,30 +21,24 @@ const About = () => {
       className="relative flex flex-col items-center justify-center dark:text-white text-black px-6 pb-20 overflow-hidden"
       id="about"
     >
-      {/* Fond décoratif */}
+   
       <div className="absolute inset-0 -z-10 pointer-events-none">
         <div className="absolute top-1/2 left-0 w-72 h-72 bg-[#A99886]/10 rounded-full blur-[80px] -translate-y-1/2 -translate-x-1/3" />
         <div className="absolute top-1/4 right-0 w-56 h-56 bg-[#A99886]/10 rounded-full blur-[80px] translate-x-1/3" />
       </div>
 
-      {/* Titre */}
-      <div className="relative h-44 flex items-center justify-center w-full">
+      <div className="relative h-24 flex items-center justify-center">
         <h1 className="absolute bottom-4 bg-[#A99886] text-white font-semibold text-xl py-2 px-4 rounded-full flex items-center gap-1 shadow-lg font-playfair">
           <Sparkles className="w-4 h-4" /> À propos
         </h1>
       </div>
-
-      {/* Contenu */}
       <div className="w-full max-w-5xl flex flex-col md:flex-row items-center gap-12 md:gap-16">
-
-        {/* ── Image ── */}
         <div className="relative flex-shrink-0 w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80">
           {/* Ombre colorée */}
           <div className="absolute inset-0 rounded-3xl bg-[#A99886]/20 blur-2xl scale-90 translate-y-4" />
           {/* Cadre décoratif décalé */}
           <div className="absolute -bottom-3 -right-3 w-full h-full rounded-3xl border-2 border-[#A99886]/40" />
           <div className="absolute -bottom-6 -right-6 w-full h-full rounded-3xl border border-[#A99886]/20" />
-          {/* Image */}
           <Image
             src="/assets/illustration.png"
             alt="Awa Sylla Illustration"
@@ -58,8 +52,6 @@ const About = () => {
             <p className="font-playfair text-xs font-bold">Freelance ✨</p>
           </div>
         </div>
-
-        {/* ── Texte ── */}
         <div className="flex-1 flex flex-col gap-6 text-center md:text-left">
 
           {/* Accroche */}

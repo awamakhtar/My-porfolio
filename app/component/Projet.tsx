@@ -149,7 +149,7 @@ const ProjectCard = ({ image, title, description, tags, href, status }: { image:
 
 const Projet = () => {
   return (
-    <div className="dark:text-white text-black" id="projets">
+    <div className="dark:text-white text-black " id="projets">
 
       {/* Titre */}
       <div className="relative h-44 flex items-center justify-center">
