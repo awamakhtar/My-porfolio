@@ -23,7 +23,7 @@ const Navbar = ({ darkMode, toggleDarkMode }: NavbarProps) => {
       </div>
 
       {/* Icône menu burger visible uniquement sur mobile */}
-      <button onClick={handleMenuToggle} className="md:hidden">
+      <button type="button" onClick={handleMenuToggle} title="Open menu" aria-label="Open menu" className="md:hidden">
         <MdMenu className="w-6 h-6 text-black dark:text-white " />
       </button>
 
@@ -57,7 +57,7 @@ const Navbar = ({ darkMode, toggleDarkMode }: NavbarProps) => {
             <div className="text-black dark:text-white text-2xl font-semibold">
               <h4 className="font-allura text-2xl">Awa Sylla</h4>
             </div>
-            <button onClick={handleMenuToggle}>
+            <button onClick={handleMenuToggle} title="Close menu" aria-label="Close menu">
               <IoCloseSharp className="w-6 h-6 text-black dark:text-white" />
             </button>
           </div>

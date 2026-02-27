@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+
 
 import Image from 'next/image';
 import { Sparkles } from "lucide-react";
@@ -145,9 +145,9 @@ const Projet = () => {
                         />
                     </div>
                     <div className="flex flex-col flex-grow p-4">
-                        <h2 className="uppercase text-white font-bold mb-2">Intégration d'une maquette web</h2>
+                        <h2 className="uppercase text-white font-bold mb-2">Intégration d&apos;une maquette web</h2>
                         <p className="text-white text-sm mb-4 flex-grow">
-                            Transformation d'une maquette Figma en une interface interactive et responsive avec React.js et Tailwind CSS.
+                            Transformation d&apos;une maquette Figma en une interface interactive et responsive avec React.js et Tailwind CSS.
                         </p>
 
                         <div className="flex flex-wrap gap-2 mb-4">
@@ -181,7 +181,7 @@ const Projet = () => {
                         />
                     </div>
                     <div className="flex flex-col flex-grow p-4">
-                        <h2 className="uppercase text-white font-bold mb-2">Plateforme de Gestion D'inscription Scolaire</h2>
+                        <h2 className="uppercase text-white font-bold mb-2">Plateforme de Gestion D&apos;inscription Scolaire</h2>
                         <p className="text-white text-sm mb-4 flex-grow">
                             Application web de gestion des inscriptions scolaires en ligne avec interface parent (React) et panel admin (Laravel + Filament).
                         </p>
