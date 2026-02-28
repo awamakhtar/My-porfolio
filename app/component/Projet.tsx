@@ -197,8 +197,8 @@ const Projet = () => {
 
       {/* Grille */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl px-4 md:px-6 mx-auto pb-16">
-        {projects.map((project) => (
-          <ProjectCard key={project.title} {...project} />
+        {projects.map((project, index) => (
+          <ProjectCard key={index} {...project} />
         ))}
       </div>
     </div>
