@@ -38,7 +38,7 @@ const Header = () => {
 
                     {/* Description */}
                     <p className="font-playfair text-base text-black/70 dark:text-white/70 max-w-sm leading-relaxed">
-                        Développeuse <span className="text-[#A99886] font-semibold">Fullstack</span>, passionnée de design et d&apos;interfaces qui racontent quelque chose.
+                        Développeuse <span className="text-[#A99886] font-semibold">Fullstack</span>, Je crée des sites web pour aider les petites entreprises à trouver plus de clients en ligne.
                     </p>
                     <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                         {[
