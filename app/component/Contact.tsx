@@ -49,7 +49,7 @@ const socials = [
   {
     icon: <FaWhatsapp className="w-4 h-4" />,
     label: "WhatsApp",
-    href: "https://wa.me/221706226834?text=Bonjour%2C%20je%20viens%20de%20voir%20votre%20portfolio%20et%20je%20suis%20int%C3%A9ress%C3%A9%20par%20vos%20services",
+    href: "https://wa.me/221706226844?text=Bonjour%2C%20je%20viens%20de%20voir%20votre%20portfolio%20et%20je%20suis%20int%C3%A9ress%C3%A9%20par%20vos%20services",
     color: "hover:bg-[#25D366] dark:hover:bg-white dark:hover:text-black",
   },
 ];
