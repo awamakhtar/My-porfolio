@@ -38,7 +38,7 @@ const socials = [
     icon: <FaLinkedinIn className="w-4 h-4" />,
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/awa-makhtar-sylla-2b6394188/",
-    color: "hover:bg-[#0077B5]",
+    color: "hover:bg-[#0077B5] dark:hover:bg-white dark:hover:text-black",
   },
   {
     icon: <FaGithub className="w-4 h-4" />,
@@ -49,8 +49,8 @@ const socials = [
   {
     icon: <FaWhatsapp className="w-4 h-4" />,
     label: "WhatsApp",
-    href: "https://wa.me/221778666064?text=Bonjour%20Awa%20Sylla%20%F0%9F%91%8B,%0AJe%20viens%20de%20visiter%20votre%20portfolio%20et%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20votre%20profil.%20Pourrions-nous%20%C3%A9changer%20?",
-    color: "hover:bg-[#25D366]",
+    href: "https://wa.me/221706226834?text=Bonjour%2C%20je%20viens%20de%20voir%20votre%20portfolio%20et%20je%20suis%20int%C3%A9ress%C3%A9%20par%20vos%20services",
+    color: "hover:bg-[#25D366] dark:hover:bg-white dark:hover:text-black",
   },
 ];
 
